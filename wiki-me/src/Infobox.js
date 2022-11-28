@@ -37,6 +37,8 @@ function Infobox() {
           <td style={{ fontWeight: "bold" }}>Born</td>
           <td>
             May 8, 1998 {"("}age 24{")"}
+            <br></br>
+            California, United States
           </td>
         </tr>
         <tr>

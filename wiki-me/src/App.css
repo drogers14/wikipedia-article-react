@@ -13,7 +13,6 @@
   width: 22em;
 }
 
-
 element.style {
 }
 .mw-body .firstHeading {
@@ -43,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 0.17em;
     overflow: hidden;
 }
-user agent stylesheet
+
 h1 {
     display: block;
     font-size: 2em;
@@ -62,12 +61,17 @@ h1 {
 html, body {
     font-family: sans-serif;
     margin: 1%;
+    height: 100%;
 }
 html {
     font-size: 100%;
 }
+body{
+  /* background-color: #f6f6f6; */
+  overflow-y: scroll;
+  display: block;
+}
 .firstHeading:before {
-    /* content: url(/static/images/mobile/copyright/wikipedia-wordmark-en.svg); */
     display: block;
     height: 18px;
     left: -9999px;
